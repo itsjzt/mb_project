@@ -7,7 +7,8 @@ verify_ssl = true
 autopep8 = "*"
 
 [packages]
-django = "==2.2"
+django = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
